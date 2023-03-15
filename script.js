@@ -3,7 +3,7 @@ const iframe = document.getElementById('content-iframe');
 function navigate(page) {
   switch (page) {
     case 'legal-entities':
-      iframe.src = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRPqMvR0wTxnSj4YaCbBj6KVRKjnDc5BeW8QK_lI3Cz056c2PYMIgf7Thf8nvWw_6J8fdBA7eNzMtYf/pubhtml?widget=true&amp;headers=false';
+      iframe.src = 'https://docs.google.com/spreadsheets/d/1Bw5kk5tZ9zA7r0yviU5rquksbsp3Lgu_UqAhSiy5UuI/edit?usp=sharing';
       break;
     case 'services':
       iframe.src = 'URL_FOR_SERVICES_GOOGLE_SHEET';
