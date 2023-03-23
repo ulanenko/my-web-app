@@ -1,41 +1,29 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  line-height: 1.6;
+  color: #333;
 }
 
-.app-container {
-  display: flex;
+header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
 }
 
-.nav-panel {
-  background-color: #f5f5f5;
-  border-right: 1px solid #ccc;
-  min-width: 200px;
-}
-
-.nav-panel ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-panel li {
-  cursor: pointer;
-  padding: 10px 20px;
-}
-
-.nav-panel li:hover {
-  background-color: #ccc;
-}
-
-.content {
-  flex-grow: 1;
-  padding: 20px;
-}
-
-iframe {
-  border: none;
-  height: 100vh;
+input {
+  display: block;
   width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+article {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+article:last-child {
+  border: none;
 }
