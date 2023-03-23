@@ -3,25 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>My Web App</title>
+  <link rel="stylesheet" href="style.css">
+  <title>My Wiki</title>
 </head>
 <body>
-  <div class="app-container">
-    <nav class="nav-panel">
-      <ul>
-        <li onclick="navigate('legal-entities')">Legal Entities</li>
-        <li onclick="navigate('services')">Services</li>
-        <li onclick="navigate('cost-center-mapping')">Cost Center Mapping</li>
-        <li onclick="navigate('cost-data-input')">Cost Data Input</li>
-        <li onclick="navigate('allocation-key-input')">Allocation Key Input</li>
-        <li onclick="navigate('report')">Report</li>
-      </ul>
-    </nav>
-    <div class="content">
-      <iframe id="content-iframe" src=""></iframe>
-    </div>
-  </div>
+  <header>
+    <h1>My Wiki</h1>
+  </header>
+  <main>
+    <input type="text" id="search" placeholder="Search...">
+    <div id="articles"></div>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>
