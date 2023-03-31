@@ -49,6 +49,7 @@ function createDataPointPage(dataPoint, definition) {
   return dataPointDiv;
 }
 
+
 async function buildPage() {
   const jsonData = await fetchData();
 
@@ -65,7 +66,8 @@ async function buildPage() {
     mainDiv.appendChild(dataPointPage);
   });
 
-  document.body.appendChild(mainDiv);
+  document.getElementById('content').appendChild(mainDiv);
 }
+
 
 buildPage();
